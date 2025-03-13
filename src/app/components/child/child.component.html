@@ -1,0 +1,11 @@
+<div class="child">
+    <p>{{'CHILD' | translate}} : {{ message }}</p>
+    <button (click)="sendMessageToParent()"> {{ 'MESSAGE' | translate }}</button>
+
+
+    <!-- Display fetched API data -->
+    <p>Backend Data</p>
+    <ul>
+        <li *ngFor="let item of apiData">{{ item.message }}</li>
+    </ul>
+</div>

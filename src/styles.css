@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+/* Default LTR styling */
+body {
+    direction: ltr;
+    text-align: left;
+  }
+  
+  /* Apply RTL styling when Arabic is selected */
+  body.rtl {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  /* Optional: Adjust navigation or UI elements */
+  [dir="rtl"] .menu {
+    float: right;
+  }
+  [dir="ltr"] .menu {
+    float: left;
+  }

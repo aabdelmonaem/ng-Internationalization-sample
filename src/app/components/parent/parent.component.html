@@ -1,0 +1,6 @@
+<div class="parent">
+    <h2>{{ 'PARENT' | translate }}</h2>
+    <app-child [message]="parentMessage" (messageEvent)="receiveMessage($event)"></app-child>
+    <p> {{'MESSAGE_FROM_CHILD'| translate}}: {{ childMessage }}</p>
+
+</div>

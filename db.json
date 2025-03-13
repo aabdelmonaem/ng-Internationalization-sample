@@ -1,0 +1,33 @@
+{
+  "translations": [
+    { "lang": "en", "key": "WELCOME", "message": "Welcome to our application" },
+    { "lang": "en", "key": "HELLO", "message": "Hello" },
+    { "lang": "en", "key": "LANGUAGE", "message": "Language" },
+    { "lang": "en", "key": "CHANGE_LANGUAGE", "message": "Change Language" },
+    { "lang": "en", "key": "PARENT", "message": "Parent Component- server side" },
+    { "lang": "en", "key": "MESSAGE", "message": "Send Message to Parent" },
+    { "lang": "en", "key": "CHILD", "message": "Child Component" },
+    { "lang": "en", "key": "MESSAGE_FROM_CHILD", "message": "Message from Child Component" },
+    { "lang": "en", "key": "HELLO_FROM_PARENT", "message": "Hello from Parent!" },
+    
+    { "lang": "ar", "key": "WELCOME", "message": "مرحبًا بك في تطبيقنا" },
+    { "lang": "ar", "key": "HELLO", "message": "مرحبا" },
+    { "lang": "ar", "key": "LANGUAGE", "message": "اللغة" },
+    { "lang": "ar", "key": "CHANGE_LANGUAGE", "message": "تغيير اللغة" },
+    { "lang": "ar", "key": "PARENT", "message": "المكون الأصلي" },
+    { "lang": "ar", "key": "MESSAGE", "message": "إرسال رسالة للمكون الأصلي" },
+    { "lang": "ar", "key": "CHILD", "message": "المكون الفرعي" },
+    { "lang": "ar", "key": "MESSAGE_FROM_CHILD", "message": "رسالة من المكون الفرعي" },
+    { "lang": "ar", "key": "HELLO_FROM_PARENT", "message": "مرحبًا من المكون الأصلي!" }
+  ],
+
+  "data": [
+    { "lang": "en", "id": 1, "message": "Hello, welcome!" },
+    { "lang": "en", "id": 2, "message": "How are you?" },
+    { "lang": "en", "id": 3, "message": "Enjoy your day!" },
+    
+    { "lang": "ar", "id": 1, "message": "مرحبًا، أهلا بك!" },
+    { "lang": "ar", "id": 2, "message": "كيف حالك؟" },
+    { "lang": "ar", "id": 3, "message": "أتمنى لك يومًا سعيدًا!" }
+  ]
+}
