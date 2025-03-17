@@ -9,6 +9,9 @@ import { ParentComponent } from "./components/parent/parent.component";
 import { ChildComponent } from './components/child/child.component';
 import { MultiTranslateLoader } from './services/multi-translate-loader';
 import { LanguageService } from './services/language.service';
+import { StoreModule } from '@ngrx/store';
+import { languageReducer } from './store/language.reducer';
+import { dataReducer } from './store/data.reducer';
 
 // Function to load translation files
 export function HttpLoaderFactory(http: HttpClient) {
@@ -30,6 +33,7 @@ export function HttpLoaderFactory(http: HttpClient) {
                 deps: [HttpClient]
             }
         }),
+        StoreModule.forRoot({ language: languageReducer, data: dataReducer }),
     ],
     bootstrap: [AppComponent],
     providers: [LanguageService], // ✅ Provide LanguageService here
